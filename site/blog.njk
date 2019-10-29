@@ -1,12 +1,26 @@
 ---
 layout: default
 title: My Blog
+pagination:
+  data: collections.blog
+  reverse: true
+  size: 10
+  alias: posts
 ---
-<div class="max-w-4xl flex">
-  {% set postslist = collections.blog | reverse %}
+<div class="max-w-3xl">
   <ol>
-  {% for post in postslist  %}
-    <li><a href="{{post.url}}">{{post.data.title}}</a></li>
+  {% for post in posts %}
+    <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
   {% endfor %}
   </ol>
+{% if pagination.previousPageHref or pagination.nextPageHref %}
+  <div class="flex mt-10 max-w-lg mx-auto">
+    {% if pagination.nextPageHref %}
+    <a class="flex-auto text-left" href="{{pagination.nextPageHref}}">← Older Posts</a>
+    {% endif %}
+    {% if pagination.previousPageHref %}
+    <a class="flex-auto text-right" href="{{pagination.previousPageHref}}">Newer Posts →</a>
+    {% endif %}
+  </div>
+{% endif %}
 </div>
