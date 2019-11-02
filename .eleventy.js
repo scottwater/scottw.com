@@ -1,6 +1,7 @@
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const markdownShortcode = require("eleventy-plugin-markdown-shortcode");
 const debugging = require("./src/utils/debugging");
 const seo = require("./src/utils/seo");
 module.exports = function(eleventyConfig) {
@@ -21,6 +22,11 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true
   };
+
+  eleventyConfig.addPlugin(markdownShortcode, options);
+  eleventyConfig.addFilter("md", function(markdown) {
+    return markdownIt(options).render(markdown.toString());
+  });
 
   eleventyConfig.setLibrary(
     "md",
