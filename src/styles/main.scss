@@ -1,4 +1,12 @@
 main {
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
   > *,
   blockquote > * {
     @apply mb-6;
