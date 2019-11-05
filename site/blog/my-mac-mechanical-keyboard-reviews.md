@@ -8,9 +8,7 @@ permalink: blog/mac-mechanical-keyboard-search/index.html
 og_image: "/assets/images/posts/keyboards/code.jpg"
 ---
 
-## Update - March 4, 2018
-
-I had been going back and forth with WASD's support over the firmware issues. They assured me they would get it right and offered to cover the shipping to make it work.
+**Update - March 4, 2018** I had been going back and forth with WASD's support over the firmware issues. They assured me they would get it right and offered to cover the shipping to make it work.
 
 In the end, I preferred the overall size and enjoy using a back lit keyboard. I decided to return all of the keyboards I purchased to Amazon and placed an order directly with WASD. It was a long 3 weeks or so back in the non-mechanical keyboard world, but I survived and I am now typing this update on the Code V3.
 
@@ -24,7 +22,7 @@ I enjoyed using both the Das Keyboard and WASD Code V3. The smaller size and bac
 
 In the end, I kept the Das Keyboard and returned the other two.
 
-<!--more-->
+
 
 ## The models I tested
 - Das Keyboard 4 Professional (MX Blue)
