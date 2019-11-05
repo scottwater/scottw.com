@@ -3,10 +3,10 @@
   <head>
     {% include "head.njk" %}
   </head>
-  <body class="max-w-3xl mx-4 sm:mx-auto flex flex-col h-full min-h-screen text-xl font-sans text-gray-800 leading-snug antialiased">
+  <body class="flex flex-col h-full min-h-screen text-xl font-sans text-gray-800 leading-snug antialiased">
 
     {% include "header.njk" %}
-    <main class='flex-1'>
+    <main class='flex-1 max-w-3xl mx-4 sm:mx-auto mt-4'>
       {{ content | safe }}
     </main>
     {% include "footer.njk" %}
