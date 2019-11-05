@@ -13,7 +13,8 @@ module.exports = function(eleventyConfig) {
 
   debugging(eleventyConfig);
   seo(eleventyConfig);
-  excerpts(eleventyConfig);
+  // excerptMinimumLength = 1 ensures just the first paragraph
+  excerpts(eleventyConfig, { excerptMinimumLength: 1 });
 
   const markdownIt = require("markdown-it");
   const markdownItEmoji = require("markdown-it-emoji");
