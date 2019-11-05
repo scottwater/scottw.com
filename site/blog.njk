@@ -4,9 +4,10 @@ title: My Blog
 pagination:
   data: collections.blog
   reverse: true
-  size: 10
+  size: 25
   alias: posts
 ---
+<h1>My Blog</h1>
 <div class="max-w-3xl">
   {% for post in posts %}
     <article class="mb-4">
@@ -16,7 +17,7 @@ pagination:
   {% endfor %}
 
 {% if pagination.previousPageHref or pagination.nextPageHref %}
-  <div class="flex mt-10 max-w-lg mx-auto">
+  <div class="flex mt-10  mx-auto">
     {% if pagination.nextPageHref %}
     <a class="flex-auto text-left" href="{{pagination.nextPageHref}}">← Older Posts</a>
     {% endif %}

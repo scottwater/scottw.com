@@ -1,10 +1,18 @@
 main {
   h1 {
-    @apply text-3xl;
+    @apply text-3xl font-bold;
   }
 
   h2 {
-    @apply text-2xl;
+    @apply text-2xl font-semibold;
+  }
+
+  a {
+    @apply text-blue-600;
+  }
+
+  a:hover {
+    @apply text-blue-800 underline;
   }
 
   > *,

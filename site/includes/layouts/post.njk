@@ -3,3 +3,6 @@ layout: default
 ---
 <h1 class="text-2xl">{{ title }}</h1>
 {{ content | safe }}
+{% if source_url %}
+<p>source: <a href="{{source_url}}">{{source_url}}</a></p>
+{% endif %}

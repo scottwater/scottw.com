@@ -32,7 +32,10 @@ module.exports = function(eleventyConfig, options = {}) {
       return "";
     }
 
-    const content = doc.templateContent.replace(/<p><img.+<\/p>/, "");
+    const content = doc.templateContent
+      .replace(/<p><img.+<\/p>/, "") //remove images
+      .replace(/<sup.+<\/sup>/, "") // remove footnotes
+      .replace(/<pre.+<\/pre>/, ""); // remove code blocks
     const excerptIndex = content.indexOf(options.excerptSeparator);
     if (excerptIndex > -1) {
       return content.substring(0, excerptIndex).trim();
