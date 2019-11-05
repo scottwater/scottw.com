@@ -1,9 +1,9 @@
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const markdownShortcode = require("eleventy-plugin-markdown-shortcode");
 const debugging = require("./src/utils/debugging");
 const seo = require("./src/utils/seo");
+const excerpts = require("./src/utils/excerpts");
 module.exports = function(eleventyConfig) {
   // we need site/includes/packs.njk to be ignored in git
   // however, we still need it to watched for changes.
@@ -13,27 +13,26 @@ module.exports = function(eleventyConfig) {
 
   debugging(eleventyConfig);
   seo(eleventyConfig);
+  excerpts(eleventyConfig);
 
-  let markdownIt = require("markdown-it");
-  let markdownItEmoji = require("markdown-it-emoji");
-  let markdownItFootnotes = require("markdown-it-footnote");
-  let options = {
+  const markdownIt = require("markdown-it");
+  const markdownItEmoji = require("markdown-it-emoji");
+  const markdownItFootnotes = require("markdown-it-footnote");
+  const options = {
     html: true,
     breaks: true,
     linkify: true
   };
 
-  eleventyConfig.addPlugin(markdownShortcode, options);
-  eleventyConfig.addFilter("md", function(markdown) {
-    return markdownIt(options).render(markdown.toString());
-  });
+  const md = markdownIt(options)
+    .use(markdownItEmoji)
+    .use(markdownItFootnotes);
 
-  eleventyConfig.setLibrary(
-    "md",
-    markdownIt(options)
-      .use(markdownItEmoji)
-      .use(markdownItFootnotes)
-  );
+  eleventyConfig.setLibrary("md", md);
+
+  eleventyConfig.addPairedShortcode("markdown", function(content) {
+    return md.render(content);
+  });
 
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
