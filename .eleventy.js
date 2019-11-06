@@ -12,11 +12,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.setDataDeepMerge(true);
 
-  debugging(eleventyConfig);
-  seo(eleventyConfig);
-  // excerptMinimumLength = 1 ensures just the first paragraph
-  excerpts(eleventyConfig, { excerptMinimumLength: 1 });
-
   const markdownIt = require("markdown-it");
   const markdownItEmoji = require("markdown-it-emoji");
   const markdownItFootnotes = require("markdown-it-footnote");
@@ -30,9 +25,13 @@ module.exports = function(eleventyConfig) {
     .use(markdownItEmoji)
     .use(markdownItFootnotes);
 
-  markdown(eleventyConfig, md);
-
   eleventyConfig.setLibrary("md", md);
+
+  markdown(eleventyConfig, md);
+  debugging(eleventyConfig);
+  seo(eleventyConfig);
+  // excerptMinimumLength = 1 ensures just the first paragraph
+  excerpts(eleventyConfig, { excerptMinimumLength: 1 });
 
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
