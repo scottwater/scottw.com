@@ -3,18 +3,21 @@ layout: default
 featuredImage: /assets/images/origin.png
 title: HELLO THIS THING
 ---
-
-{% markdown %}
-## What is this?
-
+<h2>What is this?</h2>
+<div class="flex">
+  <div id="glamourshot" class="flex-shrink-0 h-48 w-48">
+    <img class="h-full w-full object-cover rounded-lg shadow-md" src="/assets/images/me.jpg" width="512" height="512" />
+  </div>
+  <div id="intro" class="ml-4 flex-shrink">
+    {% markdown %}
 This is the personal site of Scott Watermasysk.
 
 I am a bootstrapped business founder & advocate, ruby on rails developer, husband, father, sometimes basketball coach. I love to build things.
 
 I have worked at startups (we call them small businesses on the east coast) for nearly 20 years. This site is a collection of what I am working on, learning, and find interesting.
-
-{% endmarkdown %}
-
+    {% endmarkdown %}
+  </div>
+</div>
 {% markdown %}
 ## Projects
 

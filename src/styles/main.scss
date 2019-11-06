@@ -16,7 +16,8 @@ main {
   }
 
   > *,
-  blockquote > * {
+  blockquote > *,
+  p {
     @apply mb-6;
   }
 
