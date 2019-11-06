@@ -4,6 +4,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const debugging = require("./src/utils/debugging");
 const seo = require("./src/utils/seo");
 const excerpts = require("./src/utils/excerpts");
+const markdown = require("./src/utils/markdown");
 module.exports = function(eleventyConfig) {
   // we need site/includes/packs.njk to be ignored in git
   // however, we still need it to watched for changes.
@@ -29,11 +30,9 @@ module.exports = function(eleventyConfig) {
     .use(markdownItEmoji)
     .use(markdownItFootnotes);
 
-  eleventyConfig.setLibrary("md", md);
+  markdown(eleventyConfig, md);
 
-  eleventyConfig.addPairedShortcode("markdown", function(content) {
-    return md.render(content);
-  });
+  eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
