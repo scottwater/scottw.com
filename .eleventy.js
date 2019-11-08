@@ -33,6 +33,17 @@ module.exports = function(eleventyConfig) {
   // excerptMinimumLength = 1 ensures just the first paragraph
   excerpts(eleventyConfig, { excerptMinimumLength: 1 });
 
+  eleventyConfig.addTransform("twitter-names", (content, outputPath) => {
+    if (outputPath.endsWith(".html")) {
+      return content.replace(
+        /(^|\s)@(\w+)(|'\W|$)/g,
+        " <a href='https://twitter.com/$2'>@$2</a>"
+      );
+    }
+
+    return content;
+  });
+
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.setDataDeepMerge(true);
