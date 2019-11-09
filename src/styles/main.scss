@@ -8,11 +8,11 @@ main {
   }
 
   a {
-    @apply text-blue-600;
+    @apply text-frost-bluer;
   }
 
   a:hover {
-    @apply text-blue-800 underline;
+    @apply text-frost-blueish underline;
   }
 
   pre,
