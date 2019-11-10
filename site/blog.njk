@@ -11,7 +11,7 @@ pagination:
 <div class="max-w-3xl">
   {% for post in posts %}
     <article class="mb-4">
-    <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+    <h2><a href="{{ post.url | ts }}">{{ post.data.title }}</a></h2>
     {% excerpt post %}
     </article>
   {% endfor %}
@@ -19,10 +19,10 @@ pagination:
 {% if pagination.previousPageHref or pagination.nextPageHref %}
   <div class="flex mt-10  mx-auto">
     {% if pagination.nextPageHref %}
-    <a class="flex-auto text-left" href="{{pagination.nextPageHref}}">← Older Posts</a>
+    <a class="flex-auto text-left" href="{{pagination.nextPageHref | ts}}">← Older Posts</a>
     {% endif %}
     {% if pagination.previousPageHref %}
-    <a class="flex-auto text-right" href="{{pagination.previousPageHref}}">Newer Posts →</a>
+    <a class="flex-auto text-right" href="{{pagination.previousPageHref | ts}}">Newer Posts →</a>
     {% endif %}
   </div>
 {% endif %}

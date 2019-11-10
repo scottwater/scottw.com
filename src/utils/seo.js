@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const { removeTrailingSlash } = require("./filters");
 
 module.exports = (eleventyConfig, options = {}) => {
   // borrowed from Eleventy Rss feed plugin
@@ -80,7 +81,7 @@ module.exports = (eleventyConfig, options = {}) => {
           process.env.DEPLOY_PRIME_URL ||
           process.env.URL ||
           pullWithBackup("url");
-        const pageUrl = `${baseUrl}${page.url}`;
+        const pageUrl = `${baseUrl}${removeTrailingSlash(page.url)}`;
         const publishedTime = isoDate(date);
         const siteTitle = pullWithBackup("title", title);
         const twitter = `@${pullWithBackup("twitter")}`.replace(/^@@/, "@");

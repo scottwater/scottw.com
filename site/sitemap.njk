@@ -7,7 +7,7 @@ hidden: true
 {%- for page in collections.all %}
 {%- if not page.data.hidden %}
     <url>
-        <loc>{{ urls.site }}{{ page.url | url }}</loc>
+        <loc>{{ urls.site }}{{ page.url | ts }}</loc>
         <lastmod>{{ page.date.toISOString() }}</lastmod>
     </url>
 {%- endif %}
