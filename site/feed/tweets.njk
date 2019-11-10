@@ -1,0 +1,27 @@
+---
+permalink: tweetfeed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Scott Watermasysk's blog in tweet sized</title>
+	<subtitle>Tweet sized posts for Twitter</subtitle>
+	<link href="https://scottw.com/tweetfeed.xml" rel="self"/>
+	<link href="{{ urls.site }}"/>
+	<updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
+	<id>https://scottw.com/tweetfeed.xml</id>
+	<author>
+		<name>{{ site.author.name }}</name>
+		<email>{{ site.author.email }}</email>
+	</author>
+	{%- for post in collections.blog | reverse %}
+	{% set absolutePostUrl %}{{ post.url | absoluteUrl(urls.site) | ts }}{% endset %}
+	<entry>
+		<title>{{ post.data.title }}</title>
+		<link href="{{ absolutePostUrl }}"/>
+		<updated>{{ post.date | rssDate }}</updated>
+		<id>{{ absolutePostUrl }}</id>
+		<content type="text"><![CDATA[{% tweet post %}]]></content>
+	</entry>
+	{%- endfor %}
+</feed>

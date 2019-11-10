@@ -5,6 +5,7 @@ const debugging = require("./src/utils/debugging");
 const seo = require("./src/utils/seo");
 const excerpts = require("./src/utils/excerpts");
 const markdown = require("./src/utils/markdown");
+const tweet = require("./src/utils/tweet");
 const { loadFilters } = require("./src/utils/filters");
 module.exports = function(eleventyConfig) {
   // we need site/includes/packs.njk to be ignored in git
@@ -31,6 +32,7 @@ module.exports = function(eleventyConfig) {
   markdown(eleventyConfig, md);
   debugging(eleventyConfig);
   seo(eleventyConfig);
+  tweet(eleventyConfig);
   // excerptMinimumLength = 1 ensures just the first paragraph
   excerpts(eleventyConfig, { excerptMinimumLength: 1 });
   loadFilters(eleventyConfig);
