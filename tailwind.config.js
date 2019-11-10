@@ -1,7 +1,15 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+const filteredFonts = defaultTheme.fontFamily.sans.filter(
+  font => font !== '"Apple Color Emoji"'
+);
+
 module.exports = {
   plugins: [require("@tailwindcss/custom-forms")],
   theme: {
     extend: {
+      fontFamily: {
+        sans: filteredFonts
+      },
       colors: {
         "polar-night": {
           darkest: "#2E3440",
