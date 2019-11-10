@@ -1,4 +1,8 @@
-<title>{{ title or site.title }}</title>
+{% set pageTitle %}{{ title}} - {{site.title}}{% endset %}
+{% if (pagination and pagination.pageNumber > 0) %}
+  {% set pagerTitle %} - page {{pagination.pageNumber + 1}}{% endset %}
+{% endif %}
+<title>{{ pageTitle }}{{pagerTitle}}</title>
 <meta name="viewport" content="width=device-width">
 <meta charset="utf-8">
 <meta name="generator" content="Eleventy + Origin" />
