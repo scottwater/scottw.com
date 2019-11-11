@@ -23,6 +23,10 @@ main {
     @apply mb-6;
   }
 
+  p code {
+    @apply italic;
+  }
+
   .highlight-line {
     @apply pl-3;
   }

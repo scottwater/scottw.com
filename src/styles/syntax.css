@@ -1,6 +1,6 @@
 code[class*="language-"],
 pre[class*="language-"] {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
@@ -20,6 +20,7 @@ pre[class*="language-"] {
 pre[class*="language-"] {
   padding: 1.5em 0;
   margin: 0.5em 0;
+  margin-bottom: 1.5em;
   overflow: auto;
 }
 :not(pre) > code[class*="language-"] {
