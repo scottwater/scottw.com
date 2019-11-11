@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: filteredFonts
+        sans: ["Inter", ...filteredFonts]
       },
       colors: {
         "polar-night": {
