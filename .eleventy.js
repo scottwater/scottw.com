@@ -37,13 +37,6 @@ module.exports = function(eleventyConfig) {
   excerpts(eleventyConfig, { excerptMinimumLength: 1 });
   loadFilters(eleventyConfig);
 
-  // eleventyConfig.addFilter("ts", function(url) {
-  //   if (url && url.endsWith("/")) {
-  //     return url.slice(0, url.length - 1);
-  //   }
-  //   return url;
-  // });
-
   eleventyConfig.addTransform("twitter-names", (content, outputPath) => {
     if (outputPath.endsWith(".html")) {
       return content.replace(
@@ -63,9 +56,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
 
-  // eleventyConfig.addCollection("blog", collection => {
-  //   return collection.getFilteredByTag("blog").reverse();
-  // });
+  eleventyConfig.addCollection("feed", collection => {
+    return collection
+      .getFilteredByTag("blog")
+      .reverse()
+      .slice(0, 20);
+  });
 
   // move to head so that it does not interfere
   // with turbolinks in development
