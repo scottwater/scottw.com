@@ -60,7 +60,15 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("blog")
       .reverse()
+      .filter(post => post.data.draft !== true)
       .slice(0, 20);
+  });
+
+  eleventyConfig.addCollection("publishedPosts", collection => {
+    return collection
+      .getFilteredByTag("blog")
+      .reverse()
+      .filter(post => post.data.draft !== true);
   });
 
   // move to head so that it does not interfere

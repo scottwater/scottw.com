@@ -6,10 +6,12 @@ hidden: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {%- for page in collections.all %}
 {%- if not page.data.hidden %}
-    <url>
-        <loc>{{ urls.site }}{{ page.url | ts }}</loc>
-        <lastmod>{{ page.date.toISOString() }}</lastmod>
-    </url>
+    {%- if not page.data.draft %}
+        <url>
+            <loc>{{ urls.site }}{{ page.url | ts }}</loc>
+            <lastmod>{{ page.date.toISOString() }}</lastmod>
+        </url>
+    {% endif %}
 {%- endif %}
 {%- endfor %}
 </urlset>
