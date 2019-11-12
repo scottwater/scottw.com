@@ -11,8 +11,7 @@ module.exports = function(eleventyConfig) {
 
     const truncatedContent = truncate(contentWithNoTags, 260);
 
-    const baseUrl =
-      process.env.DEPLOY_PRIME_URL || process.env.URL || "https://scottw.com";
+    const baseUrl = process.env.URL || "https://scottw.com";
 
     const url = removeTrailingSlash(`${baseUrl}${doc.url}`);
     return `${truncatedContent} ${url}`;
