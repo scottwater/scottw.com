@@ -10,7 +10,7 @@ pagination:
 <div class="max-w-3xl">
   {% for post in posts %}
     <article class="mb-4">
-    <h2><a href="{{ post.url | ts }}">{{ post.data.title }}</a></h2>
+    <h2><a href="{{ post.url | ts }}" aria-label="Read more about {{post.data.title}}">{{ post.data.title }}</a></h2>
     {% excerpt post %}
     </article>
   {% endfor %}
