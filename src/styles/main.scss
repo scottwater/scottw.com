@@ -8,11 +8,11 @@ main {
   }
 
   a {
-    @apply text-frost-bluer;
+    @apply underline;
   }
 
   a:hover {
-    @apply text-frost-blueish underline;
+    @apply text-frost-bluer underline;
   }
 
   pre,
