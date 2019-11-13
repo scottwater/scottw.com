@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{%- if draft %}
+<h1 class="text-aurora-red">DRAFT POST! POST DRAFT!</h1>
+{% endif %}
 <h1>{{ title }}</h1>
 <p class="text-sm text-gray-600">
   Published: <time datetime='{{page.date | rssDate}}' itemprop='datePublished'>{{page.date.toLocaleDateString("en-US", { month: 'short', day: 'numeric', year: 'numeric' })}}</time>
