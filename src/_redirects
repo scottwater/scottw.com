@@ -1,3 +1,7 @@
+https://:www.scottw.com/* https://scottw.com/:splat 301!
+https://master--scottw.netlify.com/* https://scottw.com/:splat 301!
+https://5dc9babebad8ddb4a345cc77--scottw.netlify.com/* https://scottw.com/:splat 301!
+
 /about /
 /zsh-autosuggestions /blog/zsh-autosuggestions
 /early-access-not-enough /blog/early-access-not-enough
