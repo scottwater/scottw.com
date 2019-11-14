@@ -15,6 +15,7 @@ main {
     @apply text-frost-bluer underline;
   }
 
+  h2,
   pre,
   ol,
   ul,
@@ -23,8 +24,15 @@ main {
     @apply mb-6;
   }
 
+  h2.link {
+    @apply font-normal;
+  }
   p code {
     @apply italic;
+  }
+
+  blockquote {
+    @apply border-l-2 border-polar-night-light pl-4 italic;
   }
 
   .highlight-line {

@@ -38,7 +38,7 @@ module.exports = function(eleventyConfig) {
   loadFilters(eleventyConfig);
 
   eleventyConfig.addTransform("twitter-names", (content, outputPath) => {
-    if (outputPath.endsWith(".html")) {
+    if (outputPath && outputPath.endsWith(".html")) {
       return content.replace(
         /(^|\s)@(\w+)(|'\W|$)/g,
         " <a href='https://twitter.com/$2'>@$2</a>"
@@ -62,6 +62,10 @@ module.exports = function(eleventyConfig) {
       .reverse()
       .filter(post => post.data.draft !== true)
       .slice(0, 20);
+  });
+
+  eleventyConfig.addCollection("links", collection => {
+    return collection.getFilteredByTag("link").reverse();
   });
 
   eleventyConfig.addCollection("publishedPosts", collection => {
