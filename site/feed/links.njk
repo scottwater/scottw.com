@@ -1,0 +1,27 @@
+---
+permalink: links.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ site.title }} Links</title>
+	<subtitle>My Recommended Links</subtitle>
+	<link href="https://scottw.com/links.xml" rel="self"/>
+	<link href="https://scottw.com/links"/>
+	<updated>{{ collections.links | rssLastUpdatedDate }}</updated>
+	<id>https://scottw.com/links.xml</id>
+	<author>
+		<name>{{ site.author.name }}</name>
+		<email>{{ site.author.email }}</email>
+	</author>
+	{%- for link in collections.links %}
+	<entry>
+		<title>{{ link.data.title }}</title>
+		<link href="{{ link.data.source_url }}"/>
+    <source href="{{ link.data.source_url}}" />
+		<updated>{{ link.date | rssDate }}</updated>
+		<id>{{ link.data.source_url }}</id>
+		<content type="html">{{ link.templateContent }}</content>
+	</entry>
+	{%- endfor %}
+</feed>
