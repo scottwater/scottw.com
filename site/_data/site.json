@@ -1,16 +1,16 @@
 {
-  "name": "Scott Watermasysk",
-  "url": "https://scottw.com",
+  "name": "Origin",
+  "url": "https://example.com",
   "title": "Scott Watermasysk",
-  "description": "Scott Watermasys's take on life, business, and software.",
+  "description": "The Origin starter pays homage to Rails. While Eleventy itself is very opinionated and `just works`, Origin is quite a opinionated and leverages many of the libraries and tools I enjoy working in Rails",
   "feed": {
-    "subtitle": "Posts by Scott Watermasysk",
+    "subtitle": "Origin - ",
     "filename": "feed.xml",
     "path": "/feed.xml"
   },
   "author": {
     "name": "Scott Watermasysk",
-    "email": "scott@scottw.com"
+    "email": "origin@scottw.com"
   },
   "twitter": "@scottw"
 }
