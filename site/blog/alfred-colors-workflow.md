@@ -1,5 +1,5 @@
 ---
-title: Colors via Alfred
+title: Alfred Color Workflow
 date: 2019-11-15
 tags:
   - blog
