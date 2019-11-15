@@ -9,7 +9,7 @@ Instead of using the -a flag, you can also use the git remote name via the --rem
 
 The remote name only needs to be unique within your app. This means you can reign in this craziness a bit by using your own git remote names. By default, Heroku creates a remote called `heroku`. You can use the `git remote rename` command to rename your remote(s) to something more consistent
 
-```shell
+```
 git remote rename original_name new_name
 ```
 
@@ -17,7 +17,7 @@ With this knowledge, you can create more consistent names for your remotes. I ge
 
 Next, I add the following to my zsh profile:
 
-```shell
+```
 function hs(){
   heroku  "$@" --remote staging
 }
@@ -29,12 +29,12 @@ function hp(){
 
 Now, anything I want to do to production, is as simple as:
 
-```shell
+```
 hp config:set VAR=1234
 ```
 
 And the same can be done in staging:
 
-```shell
+```
 hs config:set VAR=1234
 ```
