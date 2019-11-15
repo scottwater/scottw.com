@@ -20,6 +20,37 @@ module.exports = (eleventyConfig, options = {}) => {
     });
   }
 
+  function generateExcerpt(templateContent) {
+    if (!templateContent) {
+      return "";
+    }
+    // kind of a hacky way to generate a meta description
+    // relies on a specific content pattern
+    const content = templateContent
+      .replace(/(\r\n|\n|\r)/gm, "")
+      .replace(/<h1>.+<\/h1><p(.|\n)+<\/time>(.|\n)?<\/p>/gm, "")
+      .replace(/<p><img.+<\/p>/, "") //remove images
+      .replace(/<sup.+<\/sup>/, "") // remove footnotes
+      .replace(/<pre.+<\/pre>/, ""); // remove code blocks
+    const excerptIndex = content.indexOf("<!--more-->");
+    if (excerptIndex > -1) {
+      return content.substring(0, excerptIndex).trim();
+    } else if (content.length <= 140) {
+      return content.trim();
+    }
+
+    const excerptEnd = findExcerptEnd(content);
+    return content.substring(0, excerptEnd).trim();
+  }
+
+  function findExcerptEnd(content) {
+    if (content === "") {
+      return 0;
+    }
+
+    return content.indexOf("</p>") + 4;
+  }
+
   eleventyConfig.addNunjucksTag("seo", function(nunjucksEngine) {
     return new (function() {
       this.tags = ["seo"];
@@ -52,7 +83,8 @@ module.exports = (eleventyConfig, options = {}) => {
           image,
           image_alt,
           type,
-          title
+          title,
+          content
         } = context["ctx"];
 
         const site =
@@ -71,10 +103,11 @@ module.exports = (eleventyConfig, options = {}) => {
           return (seo && seo[key]) || (site && site[key]) || defaultValue;
         };
         const pageTitle = title || site.title;
-        const metaDescription = (description || excerpt || "").replace(
-          /<\/?([a-z][a-z0-9]*)\b[^>]*>|<!--[\s\S]*?-->/gi,
-          ""
-        );
+        const metaDescription = (
+          description ||
+          excerpt ||
+          generateExcerpt(content)
+        ).replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>|<!--[\s\S]*?-->/gi, "");
         const local = pullWithBackup("local", "en_US");
         const metaKeywords = keywords || pullWithBackup("keywords");
         const baseUrl = process.env.URL || pullWithBackup("url");
