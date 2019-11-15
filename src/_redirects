@@ -2,6 +2,7 @@ https://www.scottw.com/* https://scottw.com/:splat 301!
 https://master--scottw.netlify.com/* https://scottw.com/:splat 301!
 
 /about /
+/blog/alfred-color-workflow /blog/alfred-colors-workflow
 /zsh-autosuggestions /blog/zsh-autosuggestions
 /early-access-not-enough /blog/early-access-not-enough
 /what-your-shorts-why-you-should-use-them-too /blog/what-your-shorts-why-you-should-use-them-too
