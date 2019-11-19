@@ -47,7 +47,8 @@
     "package:prod": "webpack --mode production --env.NODE_ENV=production",
     "purge": "purgecss --c purgecss.config.js --o dist/assets",
     "serve": "eleventy --serve",
-    "serve:dist": "npx http-server dist"
+    "serve:dist": "npx http-server dist",
+    "new": "node bin/new_post.js"
   },
   "dependencies": {}
 }
