@@ -57,12 +57,6 @@ module.exports = env => {
         filename: devMode ? "[name].css" : "[name]-[hash].css",
         chunkFilename: "[id].css"
       }),
-      new HtmlWebpackPlugin({
-        template: "src/templates/packs.html",
-        filename: path.resolve(__dirname, "site/includes/packs.njk"),
-        inject: false,
-        hash: false
-      }),
       new CopyWebpackPlugin([
         {
           from: path.resolve("src/images"),
