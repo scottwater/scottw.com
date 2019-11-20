@@ -1,7 +1,7 @@
 ---
 title: "\U0001F469‍\U0001F4BB How to Execute a Terminal Command in VSCode"
 date: "2019-06-05T14:00:47-04:00"
-image: assets/images/posts/undraw/typing.png
+image: /assets/images/posts/undraw/typing.png
 ---
 
 VSCode has a good story for using the terminal within the IDE. However, there is no built in way to execute a command via a keyboard shortcut.

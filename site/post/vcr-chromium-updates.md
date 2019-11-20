@@ -1,7 +1,7 @@
 ---
 title: Vcr And Chromium Updates
 date: "2019-09-16T08:54:05-04:00"
-image: assets/images/posts/vcr_chromium.png
+image: /assets/images/posts/vcr_chromium.png
 ---
 
 I noticed today that VCR was reporting a request I was not expecting[^1].
