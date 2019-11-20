@@ -2,14 +2,12 @@ const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
-module.exports = env => {
-  process.env.NODE_ENV = (env && env.NODE_ENV) || "development";
-  const devMode = process.env.NODE_ENV !== "production";
+module.exports = () => {
   return {
     entry: path.resolve(__dirname, "src/index.js"),
     devtool: "source-map",
     output: {
-      filename: devMode ? "[name].js" : "[name]-[hash].js",
+      filename: "[name].js",
       path: path.resolve(__dirname, "dist/assets"),
       publicPath: "/assets/"
     },
@@ -53,7 +51,7 @@ module.exports = env => {
     },
     plugins: [
       new MiniCssExtractPlugin({
-        filename: devMode ? "[name].css" : "[name]-[hash].css",
+        filename: "[name].css",
         chunkFilename: "[id].css"
       }),
       new CopyWebpackPlugin([
