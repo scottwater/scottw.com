@@ -1,0 +1,11 @@
+build:
+  publish: dist
+  command: npm run build
+
+plugins:
+  - type: "netlify-plugin-hashfiles"
+    config:
+      entryPoints:
+        - "*.html"
+
+      staticDir: /static/
