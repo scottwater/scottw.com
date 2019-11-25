@@ -21,7 +21,7 @@ eleventyExcludeFromCollections: true
     <source href="{{ link.data.source_url}}" />
 		<updated>{{ link.date | rssDate }}</updated>
 		<id>{{ link.data.source_url }}</id>
-		<content type="html">{{ link.templateContent }}</content>
+		<content type="text">{{ link.data.title }} - {{ link.data.source_url }}</content>
 	</entry>
 	{%- endfor %}
 </feed>
