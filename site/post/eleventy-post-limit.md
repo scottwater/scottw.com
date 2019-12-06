@@ -3,7 +3,7 @@ title: Limiting the Number of Posts in an Eleventy Collection
 date: "2019-11-11T20:34:33.907Z"
 ---
 
-I have been working on migrating my blog over to [Eleventy](https://www.11ty.io/) (hence the lack of posts recently).
+I have been working on migrating my blog over to [Eleventy](https://www.11ty.dev/) (hence the lack of posts recently).
 
 As soon as I flipped the switch on the newish site, Zapier kindly notified me that way more data was being processed than before (279 posts).
 

@@ -2,7 +2,7 @@
 
 ![Origin Logo](src/images/origin.png)
 
-Origin is an opinionated starter template for [Eleventy](https://www.11ty.io). It was assembled using many of the tools and libraries I use often on Rails projects.
+Origin is an opinionated starter template for [Eleventy](https://www.11ty.dev). It was assembled using many of the tools and libraries I use often on Rails projects.
 
 ## Features
 
