@@ -1,7 +1,6 @@
 ---
 title: My Experience with the ErgoDox EZ Mechanical Keyboard
 date: "2019-12-10"
-draft: true
 ---
 
 I spent a couple of weeks using the [ErgoDox EZ](https://ErgoDox-ez.com) but decided it was not for me.
