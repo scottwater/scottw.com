@@ -24,7 +24,7 @@ eleventyExcludeFromCollections: true
 		{%- if post.data.tags.includes("short") %}
 		<content type="text"><![CDATA[{% tweet post %}]]></content>
 		{%- else %}
-		<content type="text">{{post.data.title}} - {{absolutePostUrl}}</content>
+		<content type="text">{{(post.data["tweet"] or post.data.title)}} - {{absolutePostUrl}}</content>
 		{%- endif %}
 	</entry>
 	{%- endfor %}
