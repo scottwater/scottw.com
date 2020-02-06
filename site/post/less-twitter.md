@@ -37,4 +37,4 @@ Edit.app is my favorite new(ish) app to come to iOS in a long time. It provides 
 
 ## On Community
 
-I feel it is important to point out that this Twitter experience does have it's drawbacks. The most noticeable is interacting with the community in real-time. Keeping Twitter at arm's length at all times is undoubtedly good for your mental health and productivity, but it certainly comes at the expense of some of the Twitter charm.
+It is important to point out that this Twitter experience does have it's drawbacks. The most noticeable is interacting with the community in real-time. Keeping Twitter at arm's length at all times is undoubtedly good for your mental health and productivity, but it certainly comes at the expense of some of the Twitter charm.
