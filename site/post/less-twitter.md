@@ -2,6 +2,8 @@
 title: Taking Control of Twitter
 date: 2020-02-06T10:50:34.121Z
 tweet: My tools and workflow for getting the most out of Twitter without the time suck.
+og_image: /assets/images/posts/twitter/time.jpg
+og_image_alt: Time ticking away
 ---
 
 For better or worse, Twitter has become the de facto information exchange hub for some of my favorite communities (developers and bootstrappers). While I long for the day when blogs and personal sites make their triumphant return, I am taking a more pragmatic approach to how I interact with Twitter.
