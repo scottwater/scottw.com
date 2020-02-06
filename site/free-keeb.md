@@ -2,6 +2,8 @@
 layout: default
 permalink: free-keeb/index.html
 eleventyExcludeFromCollections: true
+og_image: /assets/images/pages/code.jpg
+og_image_alt: WASD Code V3
 ---
 
 # Do You Know Someone Who Could Use a Free Mechanical Keyboard?
@@ -9,6 +11,8 @@ eleventyExcludeFromCollections: true
 A mechanical keyboard will not make better at your job. However, good tools (like a mechanical keyboard) certainly make doing the work more enjoyable.
 
 My [first mechanical keyboard](https://scottw.com/blog/mac-mechanical-keyboard-search/) ([WASD Code V3 87 Key, MX Brown switches + backlighting](https://www.wasdkeyboards.com/code-v3-87-key-mechanical-keyboard-cherry-mx-brown.html)) has been sitting on a self (and other places) for the better part of the last six months, and it deserves a better home. There is absolutely nothing wrong with it (I have the original cable and keycap puller as well).
+
+![WASD Code V3 87 Key, MX Brown switches](/assets/images/pages/code.jpg)
 
 I have explored selling it, but it is not moving at a price that makes it worth the effort.
 
