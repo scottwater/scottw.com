@@ -27,7 +27,7 @@ Feedbin does cost \$5 a month, but it is certainly worth it.
 
 What truly makes Twitter great (at times) is the ease of sharing. Anyone can share something at any time without a lot of fuss. Unfortunately, every time you log in to Twitter (or open an app) is a chance to get sucked in. Enter Twizzle!
 
-Twizzle is a small application that lives in your menu bar that makes allows you to send tweets (even tweet streams) without the full Twitter experience. (It also handles DM's, but I rarely use that functionality).
+Twizzle is a small application that lives in your menu bar that enables you to send tweets (even tweet streams) without the full Twitter experience. (It also handles DM's, but I rarely use that functionality).
 
 When it was first released, it cost a wapping \$5 but is now free and open source.
 
