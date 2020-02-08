@@ -6,7 +6,9 @@ og_image: /assets/images/pages/code.jpg
 og_image_alt: WASD Code V3
 ---
 
-# Do You Know Someone Who Could Use a Free Mechanical Keyboard?
+# A Free Mechanical Keyboard
+
+<h2 class="text-4xl text-red-700">Update: A new owner for this board has been found. 😀</h2>
 
 A mechanical keyboard will not make better at your job. However, good tools (like a mechanical keyboard) certainly make doing the work more enjoyable.
 
