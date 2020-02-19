@@ -28,10 +28,11 @@ All you have to do is plug it in and begin typing.
 
 You can email me at tofuhhkb@scottw.com with any questions.
 
-**UPDATE** Quick sound test. New mic is coming soon, so this should improve in the near future.
-
-<audio controls>
-  <source src="/assets/images/gordons/tofu-hhkb/hhkb.m4a" type="audio/mp4">
-  <source src="/assets/images/gordons/tofu-hhkb/hhkb.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+<div class="flex items-center justify-center">
+  <span class="pl-4">Sound Test</span>
+  <audio controls>
+    <source src="/assets/images/gordons/tofu-hhkb/tofu_sound_2.m4a" type="audio/mp4">
+    <source src="/assets/images/gordons/tofu-hhkb/tofu_sound_2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+</div>
