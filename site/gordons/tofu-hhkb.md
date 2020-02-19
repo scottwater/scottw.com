@@ -7,7 +7,7 @@ keywords: Tofu HHKB, T1 switches, GMK Mito Pulse, KBDFans, Durock stabs, Keyboar
 status: Available
 ---
 
-This is a KBDFans Tofu 60% keyboard with the HHKB layout (Black). I am asking **\$385** for the board. This includes free shipping in the CONUS. Payments can be made via PayPal or Venmo.
+This is a KBDFans Tofu 60% keyboard with the HHKB layout (Black). I am asking **\$350** for the board. This includes free shipping in the CONUS. Payments can be made via PayPal or Venmo.
 
 The board is in pristine condition and is being sold as a bundle.
 
