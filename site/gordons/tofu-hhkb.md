@@ -4,10 +4,10 @@ date: "2020-02-14T01:52:54+00:00"
 image: /assets/images/gordons/tofu-hhkb/closeup.jpeg
 description: Tofu HHKB keyboard with lubed T1 switches and GMK Mito Pulse keycaps.
 keywords: Tofu HHKB, T1 switches, GMK Mito Pulse, KBDFans, Durock stabs, Keyboard Bundle
-status: Available
+status: SOLD
 ---
 
-This is a KBDFans Tofu 60% keyboard with the HHKB layout (Black). I am asking **\$350** for the board. This includes free shipping in the CONUS. Payments can be made via PayPal or Venmo.
+This is a KBDFans Tofu 60% keyboard with the HHKB layout (Black). ~~I am asking **\$350** for the board. This includes free shipping in the CONUS. Payments can be made via PayPal or Venmo.~~ **SOLD**
 
 The board is in pristine condition and is being sold as a bundle.
 
