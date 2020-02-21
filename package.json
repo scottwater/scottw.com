@@ -45,7 +45,7 @@
     "generate": "eleventy",
     "package": "webpack --mode development --watch --env.NODE_ENV=development",
     "package:prod": "webpack --mode production --env.NODE_ENV=production",
-    "purge": "purgecss --c purgecss.config.js --o dist/assets",
+    "purge": "purgecss --config purgecss.config.js --output dist/assets",
     "serve": "eleventy --serve",
     "serve:dist": "npx http-server dist",
     "new": "node bin/new_post.js"
