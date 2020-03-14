@@ -1,18 +1,18 @@
 ---
 layout: default
 title: Keyboard Bundles
-description: Scott Watermasysk's Gordon Boards
+description: Scott Watermasysk's Boards
 pagination:
   data: collections.keeb
   size: 25
   alias: keebs
   reverse: true
 ---
-<h1>Keyboard Bundles</h1>
-<p>I am experimenting with building and selling custom keyboards. I may have some inventory that is not listed below. Please feel free to reach out with questions.</p>
+<h1>Keyboards</h1>
+<p>Here are some of the boards I have built. Some may be for sale if you are interested.</p>
 
 {% for keeb in keebs %}
 <h2 class="link">
-  <a href="{{keeb.url | ts }}">{{keeb.data.title}}</a> - {{keeb.data.status}}
+  <a href="{{keeb.url | ts }}">{{keeb.data.title}}</a> - {{keeb.data.status | d("Fo Sho")}}
 </h2>
 {% endfor %}
