@@ -1,4 +1,4 @@
-{% set pageTitle %}{{ title}} - {{site.title}}{% endset %}
+{% set pageTitle %}{{ title | safe}} - {{site.title}}{% endset %}
 {% if (pagination and pagination.pageNumber > 0) %}
   {% set pagerTitle %} - page {{pagination.pageNumber + 1}}{% endset %}
 {% endif %}
