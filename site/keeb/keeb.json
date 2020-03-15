@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/keeb",
+  "tags": ["keeb"],
+  "permalink": "boards/{{page.fileSlug}}/index.html"
+}
