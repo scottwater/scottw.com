@@ -5,6 +5,10 @@ permalink: blog/mac-mechanical-keyboard-search/index.html
 og_image: "/assets/images/posts/keyboards/code.jpg"
 ---
 
+**Update - April 4, 2020** When I first started looking for a mechanical keyboard I did not understand the number of options that are available. There is really no best. Just a starting place and your willingness to explore.
+
+I recommend not thinking in term of Mac vs not-Mac when looking for a keyboard. Any decent mechanical keyboard will have options to remap keys. I ended up [giving this board away](https://www.reddit.com/r/MechanicalKeyboards/comments/ezx9xr/free_keeb_to_get_you_started/) and use a [Rama M60-A](https://scottw.com/boards/jony) as my daily keyboard (although I now own other boards as well).
+
 **Update - March 4, 2018** I had been going back and forth with WASD's support over the firmware issues. They assured me they would get it right and offered to cover the shipping to make it work.
 
 In the end, I preferred the overall size and enjoy using a back lit keyboard. I decided to return all of the keyboards I purchased to Amazon and placed an order directly with WASD. It was a long 3 weeks or so back in the non-mechanical keyboard world, but I survived and I am now typing this update on the Code V3.
@@ -119,7 +123,9 @@ I also love that it ships with a handy tool for removing the keys and it is infi
 - It is not 'real' a Mac keyboard. You can Mac enable it, but the keys are not all labeled. They sell a pack of keys to address some of this, but again, another \$20. The other two keyboards I am comparing it to are Mac keyboards through and through.
 - I love those media controls on the Das Keyboard.
 
-After some back and forth with the WASD support team, I have been informed the firmware updates to both fix the backtick and tilde issue as well as enable the V3 specific features would not only require a firmware update, but that update would need to be done with a Windows computer.
+~~After some back and forth with the WASD support team, I have been informed the firmware updates to both fix the backtick and tilde issue as well as enable the V3 specific features would not only require a firmware update, but that update would need to be done with a Windows computer.~~
+
+**This issue was fixed quite a while to go. No need to worry about it going forward.**
 
 I have some significant concerns with this:
 
