@@ -1,7 +1,7 @@
 ---
 title: Using Postgresql To Perform Tasks In A User's Local Time Zone
 date: "2019-01-17T09:30:25-05:00"
-photo_credit: Luis Cortes via UnSplash
+image_credit: Luis Cortes via UnSplash
 image: "/assets/images/posts/timezones.jpg"
 ---
 

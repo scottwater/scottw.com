@@ -5,6 +5,8 @@ permalink: blog/mac-mechanical-keyboard-search/index.html
 og_image: "/assets/images/posts/keyboards/code.jpg"
 ---
 
+**Update - April 16, 2020** What I now recommend you do for a [Mac Keyboard](https://scottw.com/blog/ergo_mac/)
+
 **Update - April 4, 2020** When I first started looking for a mechanical keyboard I did not understand the number of options that are available. There is really no best. Just a starting place and your willingness to explore.
 
 I recommend not thinking in term of Mac vs not-Mac when looking for a keyboard. Any decent mechanical keyboard will have options to remap keys. I ended up [giving this board away](https://www.reddit.com/r/MechanicalKeyboards/comments/ezx9xr/free_keeb_to_get_you_started/) and use a [Rama M60-A](https://scottw.com/boards/jony) as my daily keyboard (although I now own other boards as well).
