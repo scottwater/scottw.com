@@ -3,6 +3,7 @@ title: 'M60-A: "Jony Ive" edition'
 date: "2020-02-15T01:50:54+00:00"
 keywords: Mechanical Keyboard, Rama M60-A, SEQ2, Milk, GMK Minimal, SummitCable
 image: /assets/images/gordons/jony/1.jpeg
+status: Rebuilt
 ---
 
 Most of the keyboards I have built have been the result of finding different parts that were available at the time. This build was the first time I purposely set out to acquire a specific set of components.
