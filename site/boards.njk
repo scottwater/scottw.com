@@ -11,8 +11,21 @@ pagination:
 <h1>Keyboards</h1>
 <p>Here are some of the boards I have built. Some may be for sale if you are interested.</p>
 
+<div class="flex flex-wrap">
 {% for keeb in keebs %}
-<h2 class="link">
-  <a href="{{keeb.url | ts }}">{{keeb.data.title}}</a> - {{keeb.data.status | d("Fo Sho")}}
-</h2>
+  <div class="flex w-full mb-10">
+    <div class="hidden w-1/3 sm:block lg:w-1/3">
+      <img class="object-cover rounded-md" src="{{keeb.data.image}}" />
+    </div>
+    <div class="w-full pl-0 sm:pl-4 sm:w-2/3">
+      <h2 class="text-1xl sm:text-3xl link">
+        <a href="{{keeb.url | ts }}">{{keeb.data.title}}</a>
+      </h2>
+      <div class="block pb-4 sm:hidden">
+        <img class="object-cover rounded-md" src="{{keeb.data.image}}" />
+      </div>
+      {% excerpt keeb %}
+    </div>
+  </div>
 {% endfor %}
+</div>
