@@ -1,5 +1,5 @@
 ---
-title: "Sweet Tofu HHKB with Lubed T1/GMK Pulse"
+title: Tofu HHKB
 date: "2020-02-14T01:52:54+00:00"
 image: /assets/images/gordons/tofu-hhkb/closeup.jpeg
 description: Tofu HHKB keyboard with lubed T1 switches and GMK Mito Pulse keycaps.
@@ -7,26 +7,24 @@ keywords: Tofu HHKB, T1 switches, GMK Mito Pulse, KBDFans, Durock stabs, Keyboar
 status: SOLD
 ---
 
-This is a KBDFans Tofu 60% keyboard with the HHKB layout (Black). ~~I am asking **\$350** for the board. This includes free shipping in the CONUS. Payments can be made via PayPal or Venmo.~~ **SOLD**
+I was searching for a Happy Hacking HHKB on eBay and came across a listing for KBDFans Tofu with an HHKB layout. The board looked to be in good shape and had a price much better the Happy Hacking. I figured it was a good and cheap way to try out the HHKB layout.
 
-The board is in pristine condition and is being sold as a bundle.
+When I got the board, I was very impressed with the condition. The previous owner had also included some T1 switches, which I did not initially pay much attention to.
 
-Included:
+I decided to fully break down the board and clean up as much as I could.
 
-- The case, PCB, brass weight, and black cable
-- Durock screw in stabs, lubed (Dielectric grease) and band-aid modded.
-- Smokey gray T1 switches, lubed with Krytox 203 G00.
-- GMK Mito Pulse Keycaps
+1. Cleaned the case and brass weight.
+2. The generic clip in stabs were replaced with Durock screw-in stabs, lubed (Dielectric grease), and band-aid modded.
+3. The T1 switches were lubed with Krytox 203 G00.
+4. I installed GMK Mito Pulse keycaps.
 
-The PCB is 100% operational. I have also replaced and lubed the stabs. This is a huge improvement over what KBDFans ships in the box (zero rattle). The switches have also been recently lubed and sound amazing.
+When I was done, two things quickly jumped out to me.
 
-The PCB has 8 LEDs on it, but they are mostly unseen with the current case, keycaps, and switches.
+1. The Tofu is solid. Overall, the build quality, weight, and feel were far beyond what I expected. In a perfect world, the corners would have been rounded a bit, but for the price, you cannot go wrong.
+2. The T1 switches lubed sounded much better than I expected. Up until this point, I was in complete denial about lubing switches. That changed immediately.
 
-The keyboard can be easily customized using QMK. It will be flashed to the default configuration prior to shipping.
+For better or worse, I decided to test a business hypothesis around selling semi-custom keyboards. It sold pretty quickly, which is a shame. If I could go back, I would have kept this board.
 
-All you have to do is plug it in and begin typing.
-
-You can email me at tofuhhkb@scottw.com with any questions.
 
 <div class="flex items-center justify-center">
   <span class="pl-4">Sound Test</span>
