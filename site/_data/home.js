@@ -2,9 +2,9 @@
 // Watch for leading white space
 module.exports = {
   intro: `
-This is the personal site of Scott Watermasysk.
+This is my (Scott Watermasysk) personal site.
 
-I am a bootstrapped business founder & advocate, ruby on rails developer, husband, father, sometimes basketball coach. I love to build things.
+I am a bootstrapped business founder & advocate, ruby on rails developer, husband, father, sometimes basketball coach, and appreciator of fine keyboards. I love to build things.
 
 I have worked at startups (we call them small businesses on the east coast) for nearly 20 years. This site is a collection of what I am working on, learning, and find interesting.
   `,
@@ -39,5 +39,5 @@ I have worked at startups (we call them small businesses on the east coast) for 
 * I drive to many dance classes.
 * Software is what I was born to do professionally.
 * I love to build stuff and I am trying to get better at shipping and sharing it regularly.
-  `
+  `,
 };
