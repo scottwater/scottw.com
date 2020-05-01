@@ -15,7 +15,7 @@ pagination:
 {% for keeb in keebs %}
   <div class="flex w-full mb-10">
     <div class="hidden w-1/3 sm:block lg:w-1/3">
-      <img class="object-cover rounded-md" src="{{keeb.data.image}}" />
+      <img class="object-cover rounded-md" src="{{keeb.data.image}}" loading="lazy" />
     </div>
     <div class="w-full pl-0 sm:pl-4 sm:w-2/3">
       <h2 class="text-1xl sm:text-3xl link">
