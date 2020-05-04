@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
 		<title>{{ post.data.title }}</title>
 		<link href="{{ absolutePostUrl }}"/>
 		<updated>{{ post.date | rssDate }}</updated>
-		<id>{{ absolutePostUrl }}</id>
+		<id>{{ post.data.uuid if post.data.uuid else absolutePostUrl }}</id>
 		{%- if post.data.tags.includes("short") %}
 		<content type="text"><![CDATA[{% tweet post %}]]></content>
 		{%- else %}
