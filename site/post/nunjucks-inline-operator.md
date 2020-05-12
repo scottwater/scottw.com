@@ -23,21 +23,21 @@ This does not work for previous posts since they do not have a UUID. I could gen
 So we end up with something like this:
 
 ```xml
-{% raw %}
+{%- raw -%}
 {% if post.data.uuid %}
 <id>{{ post.data.uuid}}</id>
 {% else %}
 <id>{{ absolutePostUrl}}</id>
 {% endif %}
-{% endraw %}
+{%- endraw -%}
 ```
 
 This works, and for the sake of time, I probably should have left it like that, but the if/else/end was bothering me. I figured Nunjucks must have an inline ternary operator. Drum roll.....here we go.
 
 ```xml
-{% raw %}
+{%- raw -%}
 <id>{{ post.data.uuid if post.data.uuid else absolutePostUrl }}</id>
-{% endraw %}
+{%- endraw -%}
 ```
 
 I do not love the syntax. I naively tried `||` and `or` a couple of times before I checked the docs. I am sure there is a reason for it and it works. :)
