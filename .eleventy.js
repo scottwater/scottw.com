@@ -8,6 +8,8 @@ const markdown = require("./src/utils/markdown");
 const tweet = require("./src/utils/tweet");
 const { loadFilters } = require("./src/utils/filters");
 const htmlMinTransform = require("./src/utils/html-min-transform.js");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+
 module.exports = function (eleventyConfig) {
   // we need site/includes/packs.njk to be ignored in git
   // however, we still need it to watched for changes.
@@ -21,8 +23,10 @@ module.exports = function (eleventyConfig) {
   const options = {
     html: true,
     breaks: true,
-    linkify: true,
+    linkify: false,
   };
+
+  eleventyConfig.addPlugin(embedYouTube);
 
   const md = markdownIt(options).use(markdownItEmoji).use(markdownItFootnotes);
 

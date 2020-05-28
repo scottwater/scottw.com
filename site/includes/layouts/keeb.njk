@@ -14,8 +14,15 @@ layout: default
 </p>
 {% endif %}
 {{ content | safe }}
+{% if soundTest %}
+  <div class="mb-2">
+    <h3 class="mb-2 text-2xl font-semibold text-center">Sound Test</h3>
+    <p>{{soundTest}}</p>
+  </div>
+{% endif %}
+
 {% if images %}
-<h3 class="text-2xl font-semibold text-center">Photos</h3>
+<h3 class="mt-4 text-2xl font-semibold text-center">Photos</h3>
 <div class="flex flex-wrap">
 {% for img in images %}
   <div class="w-full">
