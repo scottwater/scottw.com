@@ -20,6 +20,31 @@
       "img": "4.jpeg",
       "alt": "Sexy angle shot",
       "desc": "Sexy angle shot"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Blueberry Proof",
+      "desc": "Proof this colorway was designed with Blueberries in mind"
+    },
+    {
+      "img": "6.jpeg",
+      "alt": "More Blueberry Proof",
+      "desc": "Why do we include these images?"
+    },
+    {
+      "img": "7.jpeg",
+      "alt": "EVA foam",
+      "desc": "EVA foam"
+    },
+    {
+      "img": "8.jpeg",
+      "alt": "More Foam",
+      "desc": "My quick attempt at adding a bit more foam"
+    },
+    {
+      "img": "9.jpeg",
+      "alt": "NASA",
+      "desc": "Nice touch by including a shout out to NASA"
     }
   ]
 }
