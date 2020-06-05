@@ -17,6 +17,9 @@ layout: default
 {% if soundTest %}
   <div class="mb-2">
     <h3 class="mb-2 text-2xl font-semibold text-center">Sound Profile</h3>
+    {% if soundMessage %}
+      <p>{{soundMessage}}</p>
+    {% endif %}
     <p>{{soundTest}}</p>
   </div>
 {% endif %}
