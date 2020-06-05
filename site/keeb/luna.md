@@ -51,4 +51,4 @@ The Luna also comes with a thin layer of EVA foam, which certainly helps. There 
 [^1]: For the better part of 7 years, I made almost monthly visits to Dallas. At least one time per trip (and usually many times) I had a bowl of tortilla soup at a restaurant called Luna De Noche. To this day it is my favorite soup...so now you know ever time I think about the Luna keyboard, I think soup, even if the two of absolutely nothing to do with one and other. :)
 [^2]: I actually ordered the HHKB version, but did not notice I received the Tsangan until I was adding my switches. I contacted Luis at Ungodly and he confirmed a new top case will be sent out.
 [^3]: The Kat set also comes with some orange/pink accents. They provide an interesting twist, but they did not look right on the Luna and the 7u spacebar was quit warped...PBT. :(
-[^4:] Once I learn how to properly clean it. It is a shame it is hidden on the bottom
+[^4]: Once I learn how to properly clean it. It is a shame it is hidden on the bottom
