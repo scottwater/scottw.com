@@ -68,4 +68,8 @@ main {
     list-style-type: decimal;
     padding-left: theme("padding.6");
   }
+
+  .footnotes-sep {
+    @apply mt-8 mb-2;
+  }
 }
