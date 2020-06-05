@@ -51,6 +51,22 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addTransform("move-footnotes", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const footnoteRegex = /(<hr class="footnotes-sep">\n<section class="footnotes">[\s\S]+<\/section>)/m;
+      const newFootnoteLocationRegex = /<!--FOOTNOTES-->/;
+      let newLocation = content.match(newFootnoteLocationRegex);
+      let footnote = content.match(footnoteRegex);
+      if (newLocation && footnote) {
+        return content
+          .replace(footnoteRegex, "")
+          .replace(newFootnoteLocationRegex, footnote[0]);
+      }
+    }
+
+    return content;
+  });
+
   if (process.env.ELEVENTY_ENV === "production") {
     eleventyConfig.addTransform("htmlmin", htmlMinTransform);
   }
@@ -78,6 +94,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("publishedPosts", (collection) => {
     return collection
       .getFilteredByTag("blog")
+      .reverse()
+      .filter((post) => post.data.draft !== true);
+  });
+
+  eleventyConfig.addCollection("keyboards", (collection) => {
+    return collection
+      .getFilteredByTag("keeb")
       .reverse()
       .filter((post) => post.data.draft !== true);
   });
