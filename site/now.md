@@ -9,18 +9,11 @@ My primary activity/responsibility – Raising two great daughters with my fanta
 
 During _business_ hours, I am the co-founder of [KickoffLabs](https://kickofflabs.com). I focus primarily on the software development side if the business.
 
-At KickoffLabs I am working on:
+At KickoffLabs I am working on improving our "on your page" experience.
 
-- E-commerce referrals/rewards (mostly Shopify at this point)
-- Working on KickoffLabs on your own site
-- Simplifying how we manage the product
+I am also building a few more keyboards. In the short term:
 
-Outside of Family and KickoffLabs:
+* Mira SE - I have one PCB and two plates. Trying to decide between tactile switches and a stainless steel plate or linear switches and a FR4 plate (new PCB to do the other will be in the summer).
+* Acrylic Alice - I have the board and the switches are lubed. Waiting on a mechlovin PCB.
 
-- Writing more (I hope!)
-- Building and experimenting with various mechanical keyboards (💲💲💲💲)
-- Building [How I VSCode](https://howivscode.com)
-- Building a new fun app
-- Researching launching custom mechanical keyboards (late fall, at the earliest)
-- Prototyping a couple of other product ideas (maybe even the successor or evolution of KickoffLabs itself)
-- Doubling down on the <span class="text-2xl uppercase text-frost-blueish bg-polar-night-darkest">boring stack of champions</span> (Rails, Tailwind css, Webpack, Stimulus, PostgreSQL, Redis, and Heroku)
+For a side project, I am working on something fun to help you rank and sort some of your favorite mechanical keyboard items.
