@@ -1,6 +1,8 @@
 https://www.scottw.com/* https://scottw.com/:splat 301!
 https://master--scottw.netlify.com/* https://scottw.com/:splat 301!
-/gordons/* /boards/:splat 301!
+/boards/ https://splitbackspace.com/ 301!
+/boards/* https://splitbackspace.com/posts/:splat 301!
+/gordons/* https://splitbackspace.com/posts/:splat 301!
 /about /
 /blog/alfred-color-workflow /blog/alfred-colors-workflow
 /zsh-autosuggestions /blog/zsh-autosuggestions
