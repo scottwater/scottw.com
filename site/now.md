@@ -3,7 +3,7 @@ layout: "default"
 title: "Now"
 ---
 
-# What am I up to now?
+<h1 class="mb-4">What am I up to now?</h1>
 
 My primary activity/responsibility – Raising two great daughters with my fantastic wife.
 
@@ -11,9 +11,35 @@ During _business_ hours, I am the co-founder of [KickoffLabs](https://kickofflab
 
 At KickoffLabs I am working on improving our "on your page" experience.
 
-I am also building a few more keyboards. In the short term:
+For side programming, I am finally building my ideal, the to-do app. I am going to spend some time experimenting with StimulusReflex for the project. The world needs another to-do app like it needs another blog engine, but sometimes you just have to build it.
 
-* Mira SE - I have one PCB and two plates. Trying to decide between tactile switches and a stainless steel plate or linear switches and a FR4 plate (new PCB to do the other will be in the summer).
-* Acrylic Alice - I have the board and the switches are lubed. Waiting on a mechlovin PCB.
+Keyboards I need to write up:
 
-[MKRank](https://www.mkrank.com) - this is a new side project. The goal is to help members of the custom mechanical keyboard community rank and sort their favorite products.
+- ~~Mira SE with Marshmallows on an FR4 plate~~
+- SC Alice style with custom PCB
+- ~~Austin V2~~
+- MGA
+- ~~Key65 with inks~~
+- J-02 (on the way)
+- Sinc 75 + custom case (on the way)
+
+Keyboards (and such) I am looking for:
+
+- Iron165
+- KC No. 1/65 (and soon No. 2/65)
+
+I have my eye on:
+
+- ~~Iron180~~
+- Forever65
+- ~~Sagittarius~~
+- Vega
+- ~~Dolinger LE~~
+- ~~Merisi Sessantacinque~~
+- Ava
+- Tsukuyomi
+- ~~Aurora Input Series 65~~
+- ~~Valhalla~~
+- ~~Kara~~
+- ~~J-02 Rev 1~~
+- ~~Adélie~~
