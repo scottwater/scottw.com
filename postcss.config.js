@@ -3,14 +3,14 @@ module.exports = ({ env }) => {
     plugins: [
       require("postcss-import"),
       require("tailwindcss")("./tailwind.config.js"),
-      require("postcss-preset-env")
-    ]
+      require("autoprefixer"),
+    ],
   };
 
   if (env === "production") {
     environment.plugins.push(
       require("cssnano")({
-        preset: "default"
+        preset: "default",
       })
     );
   }

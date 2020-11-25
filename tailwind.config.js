@@ -4,6 +4,7 @@
 // );
 
 module.exports = {
+  purge: false,
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
