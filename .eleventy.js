@@ -17,6 +17,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.setDataDeepMerge(true);
 
+  eleventyConfig.addShortcode("navCssClasses", (path, page) => {
+    const klasses = ["nav-link"];
+    if (page.url && page.url.indexOf(path) > -1) {
+      klasses.push("nav-link-active");
+    }
+    return klasses.join(" ");
+  });
+
   const markdownIt = require("markdown-it");
   const markdownItEmoji = require("markdown-it-emoji");
   const markdownItFootnotes = require("markdown-it-footnote");
@@ -78,6 +86,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
+  eleventyConfig.addLayoutAlias("keyboard", "layouts/keyboard.njk");
 
   eleventyConfig.addCollection("feed", (collection) => {
     return collection
@@ -87,6 +96,13 @@ module.exports = function (eleventyConfig) {
       .slice(0, 20);
   });
 
+  eleventyConfig.addCollection("keyboards", (collection) => {
+    return collection
+      .getFilteredByTag("keyboard")
+      .reverse()
+      .filter((keyboard) => keyboard.data.draft !== true);
+  });
+
   eleventyConfig.addCollection("links", (collection) => {
     return collection.getFilteredByTag("link").reverse();
   });
@@ -94,13 +110,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("publishedPosts", (collection) => {
     return collection
       .getFilteredByTag("blog")
-      .reverse()
-      .filter((post) => post.data.draft !== true);
-  });
-
-  eleventyConfig.addCollection("keyboards", (collection) => {
-    return collection
-      .getFilteredByTag("keeb")
       .reverse()
       .filter((post) => post.data.draft !== true);
   });

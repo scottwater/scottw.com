@@ -1,7 +1,28 @@
+.nav-link {
+  @apply block w-32 p-2 font-medium rounded-lg hover:bg-polar-night-darker hover:text-frost-blueish;
+}
+
+.nav-link-active {
+  @apply text-frost-blueish bg-polar-night-darker;
+}
+
 main {
   .eleventy-plugin-youtube-embed {
     @apply my-5;
   }
+
+  .stop-button {
+    @apply hidden;
+  }
+
+  .track {
+    @apply border-l-4 border-white;
+  }
+
+  .callout-block {
+    @apply p-4 mb-4 bg-yellow-200 border-2 border-yellow-500;
+  }
+
   h1 {
     @apply text-5xl font-bold;
   }

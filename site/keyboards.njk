@@ -1,0 +1,44 @@
+---
+layout: default
+featuredImage: /assets/images/origin.png
+title: Scott Watermasyks's posts on custom mechanical keyboards
+keywords: custom mechanical keyboards, reviews, design, switches
+description: Just a boy, sitting in front a keyboard, asking it to look, feel, and sound amazing.
+pagination:
+  data: collections.keyboards
+  alias: keyboards
+  size: 25
+---
+<h1 class="mb-4">Keyboard Posts</h1>
+
+<div class="flex flex-wrap">
+{% for keyboard in keyboards %}
+  {% set backupImage %}{{keyboard.data.image}}{% endset %}
+  {% set image %}{{ keyboard.data.previewImage or backupImage }}{% endset %}
+  <div class="flex w-full mb-10">
+    <div class="hidden w-1/3 sm:block lg:w-1/3">
+      <img class="object-cover rounded-md" src="{{image}}" loading="lazy" />
+    </div>
+    <div class="w-full pl-0 sm:pl-4 sm:w-2/3">
+      <h2 class="text-1xl sm:text-3xl link">
+        <a href="{{keyboard.url}}">{{keyboard.data.title}}</a>
+      </h2>
+      <div class="block pb-4 sm:hidden">
+        <img class="object-cover rounded-md" src="{{image}}" />
+      </div>
+      {% excerpt keyboard %}
+    </div>
+  </div>
+{% endfor %}
+
+{% if pagination.previousPageHref or pagination.nextPageHref %}
+  <div class="flex mx-auto mt-10">
+    {% if pagination.nextPageHref %}
+    <a class="flex-auto text-left" href="{{pagination.nextPageHref}}">← Older Keyboard Posts</a>
+    {% endif %}
+    {% if pagination.previousPageHref %}
+    <a class="flex-auto text-right" href="{{pagination.previousPageHref}}">Newer Keyboard Posts →</a>
+    {% endif %}
+  </div>
+{% endif %}
+</div>

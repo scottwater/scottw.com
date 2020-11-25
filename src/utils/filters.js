@@ -5,8 +5,13 @@ function removeTrailingSlash(url) {
   return url;
 }
 
-function loadFilters(eleventyConfig) {
-  eleventyConfig.addFilter("ts", removeTrailingSlash);
+function isActive(path, page) {
+  path in page.url;
 }
 
-module.exports = { removeTrailingSlash, loadFilters };
+function loadFilters(eleventyConfig) {
+  eleventyConfig.addFilter("ts", removeTrailingSlash);
+  eleventyConfig.addFilter("isActive", isActive);
+}
+
+module.exports = { isActive, removeTrailingSlash, loadFilters };
