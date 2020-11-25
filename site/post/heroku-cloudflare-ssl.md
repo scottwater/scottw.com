@@ -4,6 +4,7 @@ date: 2020-07-30T19:49:14.657Z
 uuid: 1dce0a94-ac2b-4d90-ba28-8bb1f3ab65a7
 keywords: Heroku, SSL, HTTPS, certificates, cloudflare, apex domains
 ---
+
 For a couple of years now, Heroku has had pretty good free’ish SSL support. You add your domain, enable auto certs, and enter a DNS record.
 
 ```bash
@@ -17,19 +18,19 @@ Lack of Heroku certs on root level domains is usually not a big deal. Most of yo
 
 In practice, you would not want to CNAME your apex domain since it likely hides there records in the same node[^mx].
 
-However, there are a couple of DNS providers support for “aliasing” apex	 level domains without the side effect of making other records in that node unavailable.  As far as I know, this is not an actual spec/standard yet, but its support is pretty solid and has been growing over the years.
+However, there are a couple of DNS providers support for “aliasing” apex level domains without the side effect of making other records in that node unavailable. As far as I know, this is not an actual spec/standard yet, but its support is pretty solid and has been growing over the years.
 
 The three I know who support it today are:
 
-* DNS Made Easy
-* DNSimple
-* CloudFlare
+- DNS Made Easy
+- DNSimple
+- CloudFlare
 
 Both DNS Made Easy and DNSimple require you explicitly choose to use this type of alias record. CloudFlare automatically does this if you add a CNAME for your root domain (regardless of whether it is on accident or purpose). I am not sure which is better, but every six months I spend 30 minutes try to remember how to do this in CloudFlare[^forgets].
 
 Anyway, back to CloudFlare, I have been using them more and more for my projects. In addition to great DNS and pretty good support, they have a growing list of exciting features, such as workers.
 
-So how do we get going?  To use CloudFlare for SSL for Heroku:
+So how do we get going? To use CloudFlare for SSL for Heroku:
 
 1. Add your domain to Heroku (`heroku domains add mkrank.com`)
 2. Take the CNAME record they give you and add it to CloudFlare[^www]
@@ -57,9 +58,6 @@ The final step is to go back into CloudFlare and enable full SSL.
 Now all communication from the client (browser) → CloudFlare → Heroku is secure. Logins with OmniAuth will now generate the proper callback urls, and no additional configuration or monkey-patching was necessary.
 
 [^www]: I you should create a second CNAME on the www domain. Once in place, you can use CloudFlare's page rules to redirect all www. traffic back to the non-www URL.
-
 [^forgets]: Actually, who am I kidding. I prefer being explicit, but as someone who does product support, I 100% get why they just made it so.
-
 [^mx]: Everyone at some point finds this out the hard way when their email is no longer available because MX records are no longer available.
-
 [^mkrank]: MKRank is an app for the mechanical keyboard community. It allows you to build lists of your favorite mechanical keyboard products.
