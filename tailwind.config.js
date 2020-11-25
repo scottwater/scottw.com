@@ -1,7 +1,7 @@
-// const defaultTheme = require("tailwindcss/defaultTheme");
-// const filteredFonts = defaultTheme.fontFamily.sans.filter(
-//   font => font !== '"Apple Color Emoji"'
-// );
+const defaultTheme = require("tailwindcss/defaultTheme");
+const filteredFonts = defaultTheme.fontFamily.sans.filter(
+  (font) => font !== '"Apple Color Emoji"'
+);
 
 module.exports = {
   purge: false,
@@ -12,9 +12,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   sans: ["Inter", ...filteredFonts]
-      // },
+      fontFamily: {
+        sans: ["Inter", ...filteredFonts],
+      },
       colors: {
         "polar-night": {
           darkest: "#2E3440",
