@@ -43,3 +43,4 @@ I have my eye on:
 - ~~Kara~~
 - ~~J-02 Rev 1~~
 - ~~Adélie~~
+- Viktus Styrka
