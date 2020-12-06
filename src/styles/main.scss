@@ -24,7 +24,7 @@ main {
   }
 
   h1 {
-    @apply text-5xl font-bold;
+    @apply text-xl font-semibold sm:text-5xl sm:font-bold;
   }
 
   h2 {
