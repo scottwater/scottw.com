@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "img": "1.jpg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpg",
+      "alt": "SM Keyboard Case",
+      "desc": "Just the case by SM Keyboards"
+    },
+    {
+      "img": "3.jpg",
+      "alt": "Copper Plate",
+      "desc": "Copper Plate"
+    },
+    {
+      "img": "4.jpg",
+      "alt": "Another money shot",
+      "desc": "Another money shot"
+    },
+    {
+      "img": "5.jpg",
+      "alt": "Side Profile",
+      "desc": "Side Profile"
+    }
+  ]
+}
