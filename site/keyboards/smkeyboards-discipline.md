@@ -36,5 +36,5 @@ So what to do? Well, I started down the road to sell the board, and eventually I
 
 [^kb]: Technically, you can use it without a case (many do).
 [^3mm]: I recently built a board with a 3mm acrylic plate and it is not the same. 5mm for life.
-[^sb]: I am not a fan of a spacebar starting at the Z key. With a 1.5u, 1u, 1.5u layout, the spacebar gets pushed between X and C.
+[^sb]: I am not a fan of the spacebar starting at the Z key. With a 1.5u, 1u, 1.5u layout, the spacebar gets pushed between X and C.
 [^case]: The Romeo now has a case as well.
