@@ -15,32 +15,23 @@ For side programming, I am finally building my ideal, the to-do app. I am going 
 
 Keyboards I need to write up:
 
-- ~~Mira SE with Marshmallows on an FR4 plate~~
-- SC Alice style with custom PCB
-- ~~Austin V2~~
 - MGA
-- ~~Key65 with inks~~
 - J-02 (on the way)
 - Sinc 75 + custom case (on the way)
 
-Keyboards (and such) I am looking for:
+On the look out for:
 
-- Iron165
-- KC No. 1/65 (and soon No. 2/65)
+- Prime Elise
+- TKL with lower profile than the Mira
 
 I have my eye on:
 
-- ~~Iron180~~
-- Forever65
-- ~~Sagittarius~~
-- Vega
-- ~~Dolinger LE~~
-- ~~Merisi Sessantacinque~~
 - Ava
-- Tsukuyomi
-- ~~Aurora Input Series 65~~
-- ~~Valhalla~~
-- ~~Kara~~
-- ~~J-02 Rev 1~~
-- ~~Adélie~~
+- Forever65
+- Iron265
+- LZ Phase
+- MGA (blue!)
+- Meridian
+- No 2/65
 - Viktus Styrka
+- Yeti
