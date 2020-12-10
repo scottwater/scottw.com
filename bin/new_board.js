@@ -9,7 +9,13 @@ title:
 date: ${new Date().toISOString()}
 uuid: ${uuidv4()}
 keywords: Mechanical Keyboard,
-image: /assets/images/gordons/${board}/1.jpeg
+image: /assets/images/keyboards/${board}/1.jpeg
+build:
+  case: ${board}
+  pcb:
+  stabs:
+  keycaps:
+  switches:
 `.trim();
 
 const jsonData = `{
@@ -22,14 +28,20 @@ const jsonData = `{
   ]
 }`;
 
-const jsonFilePath = `site/keeb/${board}.json`;
+fs.mkdir(`src/images/keyboards/${board}`, (err) => {
+  if (err) {
+    console.log(err);
+  }
+});
+
+const jsonFilePath = `site/keyboards/${board}.json`;
 fs.writeFile(jsonFilePath, `${jsonData}`, (err) => {
   if (err) {
     console.log(err);
   }
 });
 
-const filePath = `site/keeb/${board}.md`;
+const filePath = `site/keyboards/${board}.md`;
 fs.writeFile(filePath, `${frontMatter}\n---\n`, (err) => {
   if (err) {
     console.log(err);
