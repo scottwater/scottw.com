@@ -9,7 +9,7 @@ build:
   pcb: Discipline
   stabs: Durock
   keycaps: GMK Voyage
-  switches: NK Creams
+  switches: NK Creams lubed with 205g0 and 105 on the springs
   plate: Copper
 ---
 
