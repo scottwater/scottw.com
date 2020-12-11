@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "img": "1.jpg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpg",
+      "alt": "Semi-Nude",
+      "desc": "Semi-Nude :)"
+    },
+    {
+      "img": "3.jpg",
+      "alt": "Merged",
+      "desc": "Merged"
+    }
+  ]
+}
