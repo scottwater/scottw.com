@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "img": "1.jpg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpg",
+      "alt": "acoustic chamber",
+      "desc": "The bottom of the case with the acoustic chamber"
+    },
+    {
+      "img": "3.jpg",
+      "alt": "Brass Middle",
+      "desc": "Brass middle"
+    },
+    {
+      "img": "4.jpg",
+      "alt": "CF Plate",
+      "desc": "Adding the mauves to the CF plate"
+    },
+    {
+      "img": "5.jpg",
+      "alt": "The plate sitting on the gaskets",
+      "desc": "The CF plate sitting on the gaskets"
+    },
+    {
+      "img": "6.jpg",
+      "alt": "Nude",
+      "desc": "The Nude"
+    }
+  ]
+}
