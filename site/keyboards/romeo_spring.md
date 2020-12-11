@@ -10,6 +10,7 @@ build:
   switches: Gateron Milky Yellow switches lubed with 205g0.
   stabs: Purple Durock Stabs lubed with 205g0
   keycaps: GMK Vaporware
+  mount: None
 ---
 
 [Romeo](https://www.cftkb.com/shop/romeo) is a 40% through-hole keyboard kit produced by [CFTKB](https://www.cftkb.com).

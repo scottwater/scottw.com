@@ -10,6 +10,7 @@ build:
   pcb: Rama Hot-swap
   keycaps: GMK Oblivion Monochrome with the Hagoromo alphas
   other: Custom cable by SummitCable
+  mount: Integrated
 ---
 
 The main reason I bought the [Rama M60-A](https://rama.works/m60-a) was the [Jony Ive](https://scottw.com/boards/jony) (all white) build. The initial build turned out great, but after a while, it was starting to feel a bit sterile, so I decided to mix things up a bit.

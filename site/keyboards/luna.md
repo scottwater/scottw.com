@@ -10,6 +10,7 @@ build:
   switches: NK Blueberry
   keycaps: KAT DP0385
   stabs: Durock clear
+  mount: Integrated
 ---
 
 The [Luna](https://ungodly.design/products/luna-keyboard)[^1] is the first board from [Ungodly Design](https://ungodly.design/). The design is a tribute to the 50th anniversary of the Apollo 11 landing.

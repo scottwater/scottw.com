@@ -11,6 +11,7 @@ build:
   keycaps: GMK Cafe
   switches: V2 Alpacas, lubed with 205g0, spring swapped (with 105) 72g Sprit Slows, and thin TX films.
   plate: Carbon Fiber
+  mount: Top
 ---
 
 ## Form Factor

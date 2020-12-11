@@ -11,6 +11,7 @@ build:
   stabs: Durock
   keycaps: GMK 8008
   switches: NK Dry Blacks, lubed with 205g0 + 105 on the springs
+  mount: Gasket
 ---
 
 The Key65 has been my most used board since the moment it hit my desk. It has been a joy to use.

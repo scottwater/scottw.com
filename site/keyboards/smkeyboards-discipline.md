@@ -11,6 +11,7 @@ build:
   keycaps: GMK Voyage
   switches: NK Creams lubed with 205g0 and 105 on the springs
   plate: Copper
+  mount: Sandwich
 ---
 
 The [Discipline](https://www.cftkb.com/shop/discipline) is a through-hole PCB kit[^kb] by CFTKB and completes my trilogy ([Mysterium](https://scottw.com/keyboards/mysterium/) and [Romeo](https://scottw.com/keyboards/romeo_spring/)[^case]).

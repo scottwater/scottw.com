@@ -11,6 +11,7 @@ build:
   keycaps: Modern Dolch
   switches: Marshmallows lubed with 205g0 and 105 on the springs
   plate: Hiney FR4
+  mount: Top
 ---
 
 The Mira SE GB originally ran back in 2017 around a time I thought $100 was a steep price to pay for a keyboard.

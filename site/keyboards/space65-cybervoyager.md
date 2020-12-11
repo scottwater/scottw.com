@@ -10,6 +10,7 @@ build:
   plate: Carbon Fiber
   keycaps: GMK Dark
   switches: Creamsicles lubed with 205g0, Deskey films, and 73g Thic Thock MP springs
+  mount: Top
 ---
 
 The Space65 CyberVoyager is the follow up to GrayStudio's popular Space65.

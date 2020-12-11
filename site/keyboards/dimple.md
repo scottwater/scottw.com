@@ -9,6 +9,7 @@ build:
   stabs: Durock
   switches: Gateron Milky Yellow switches lubed with 205g0
   pcb: Hot-swap + RGB
+  mount: Top
 ---
 
 The Dimple is a 40% keyboard designed by [LazyDesigners](http://lazydesigners.cn).

@@ -10,6 +10,8 @@ build:
   switches: Holy Pandas, lubed with Tribosys 3204
   pcb: Rama Hot-swap
   keycaps: GMK Minimal
+  mount: Integrated
+  plate: Integrated
   other: Custom cable by SummitCable
 ---
 

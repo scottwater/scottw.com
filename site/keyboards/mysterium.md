@@ -9,6 +9,7 @@ build:
   stabs: C3 Screw-in stabilizers, lubed with 205g0
   plate: 5mm acrylic
   pcb: Mysterium
+  mount: Sandwich
   switches: C3 Tangerine Switches (67g). Lubed with 205g0 (105 on the springs) and thicc filmed
   keycaps: GMK Dots
 ---

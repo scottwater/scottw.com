@@ -11,6 +11,7 @@ build:
   switches: Zykos
   keycaps: GMK 8008 (base + accent)
   pcb: MKII Solder
+  mount: Top
 ---
 
 This build was a labor of love and some pain and misery. But in the end, I am quite pleased with how it turned out.

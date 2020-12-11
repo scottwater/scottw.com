@@ -10,6 +10,7 @@ build:
   keycaps: MT3 Serika
   pcb: Solder
   stabs: C3 lubed with 205g0
+  mount: Top
 ---
 
 The Noah is my first keyboard by Matrix Lab. It has a few rough spots that make getting everything set up a bit of a challenge, but it is well worth the effort.

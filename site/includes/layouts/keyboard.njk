@@ -42,6 +42,16 @@ layout: default
         </dd>
       </div>
       {% endif %}
+      {% if build.mount %}
+      <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
+        <dt class="text-sm font-medium leading-5 text-gray-500">
+          Mount
+        </dt>
+        <dd class="mt-1 leading-5 text-gray-900 text-md sm:mt-0 sm:col-span-3">
+          {{build.mount}}
+        </dd>
+      </div>
+      {% endif %}
       {% if build.pcb %}
       <div class="mt-8 sm:grid sm:mt-5 sm:grid-cols-4 sm:gap-4 sm:border-t sm:border-yellow-300 sm:pt-5">
         <dt class="text-sm font-medium leading-5 text-gray-500">
