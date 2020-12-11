@@ -16,8 +16,6 @@ For side programming, I am finally building my ideal, the to-do app. I am going 
 Keyboards I need to write up:
 
 - MGA
-- J-02 (on the way)
-- Sinc 75 + custom case (on the way)
 
 On the look out for:
 
