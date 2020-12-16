@@ -16,10 +16,10 @@ For side programming, I am finally building my ideal, the to-do app. I am going 
 Keyboards I need to write up:
 
 - MGA
+- Prime Elise
 
 On the look out for:
 
-- Prime Elise
 - TKL with lower profile than the Mira
 
 I have my eye on:
@@ -28,7 +28,7 @@ I have my eye on:
 - Forever65
 - Iron265
 - LZ Phase
-- MGA (blue!)
+- MGA (cyan!)
 - Meridian
 - No 2/65
 - Viktus Styrka
