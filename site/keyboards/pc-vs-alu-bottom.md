@@ -7,4 +7,6 @@ layout: layouts/playlist
 image: /assets/images/keyboards/pe/pe.jpeg
 ---
 
-This is a quick sound comparison of a PC (polycarbonate) bottom vs an ALU (aluminum) bottom. The top (alu), plate (FR4), keycaps (GMK/abs) and switches (creamsicles) are the same in both.
+This is a quick sound comparison of a PC (polycarbonate) bottom vs an ALU (aluminum) bottom[^bumpons]. The top (alu), plate (FR4), keycaps (GMK/abs) and switches (creamsicles) are the same in both.
+
+[^bumpons]: At this time, I only have one set of bumpons which have been placed on the PC bottom.
