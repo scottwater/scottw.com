@@ -1,0 +1,12 @@
+{
+  "tracks": [
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/pe/alu.mp3",
+      "message": "Alu"
+    },
+    {
+      "src": "https://d3aa8b1gak9v1d.cloudfront.net/sounds/pe/pc.mp3",
+      "message": "PC"
+    }
+  ]
+}
