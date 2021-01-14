@@ -28,7 +28,11 @@ main {
   }
 
   h2 {
-    @apply text-2xl font-semibold;
+    @apply text-lg font-semibold sm:text-3xl mb-4;
+  }
+
+  h3 {
+    @apply text-lg font-semibold sm:text-2xl mb-4;
   }
 
   a {
