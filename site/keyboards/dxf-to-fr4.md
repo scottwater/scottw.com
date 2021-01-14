@@ -14,7 +14,7 @@ Unfortunately, the process for making them is not clear cut. Technically, when y
 
 > The Gerber format is an open ASCII vector format for printed circuit board (PCB) designs.It is the de facto standard used by PCB industry software to describe the printed circuit board images: copper layers, solder mask, legend, drill data, etc.[2]
 
-I have used this process a handful of times now, and all the plates have turned out great.
+I have used this process[^video] a handful of times now, and all the plates have turned out great.
 
 ## Step 1: Install and Open [KiCad][kicad]
 
@@ -94,6 +94,7 @@ All the default settings will work. The minimum order size is five, and it is ge
 [^bulk]: Generally, the minimum order quantity is 5, but you can usually offload the extras, and the total cost will rarely exceed $50 shipped.
 [^measure]: You can use the handy measurement tool to quickly check if some/all of your switch openings are what you would expect (14mm).
 [^windows]: On windows, this may be called archive. Either way, you should have something similar, and you are free to use any third-party tool. The goal here is not compression but merely packaging.
+[^video]: These steps are borrowed from a video that used to be on YouTube. I am not exactly sure why this happened or what led to the decision to unpublish it. However, I do want to say thank the author for creating it and do hope everything is OK for you. I am purposely not linking or disclosing the name of the author since I do not know the reasoning behind this (nor is it any of my business)
 
 [gerber]: https://en.wikipedia.org/wiki/Gerber_format
 [kicad]: https://kicad.org/
