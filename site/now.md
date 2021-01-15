@@ -17,6 +17,9 @@ Keyboards I need to write up:
 
 - MGA
 - Prime Elise
+- Praxis
+- Prophet
+- Squid60
 
 On the look out for:
 
@@ -25,7 +28,6 @@ On the look out for:
 I have my eye on:
 
 - Ava
-- Forever65
 - Iron265
 - LZ Phase
 - MGA (cyan!)
