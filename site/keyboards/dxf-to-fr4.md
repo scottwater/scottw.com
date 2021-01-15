@@ -2,10 +2,9 @@
 title: How to Create an FR4 Plate
 date: 2021-01-14T16:06:06.572Z
 uuid: 312cf15a-f4a0-48e8-9f17-cbeecfc1b946
-keywords: Mechanical Keyboard,
+keywords: Mechanical Keyboard, FR4 plates
 image: /assets/images/keyboards/dxf-to-fr4/plates.jpeg
 image_alt: Prime Elise FR4 Plates
-draft: true
 ---
 
 FR4 is one of my favorite plate materials. To me, it is the best mix of flex and stiffness. Another enduring quality is the price. It is usually very cheap[^bulk].
@@ -57,17 +56,19 @@ I always use `./gerber`, which creates a folder relative to my project with the 
 
 ## Step 8: Click `Generate Drill Files`
 
-From the window in step #7, click **Generate Drill Files**
+![Click Generate Drill File](/assets/images/keyboards/dxf-to-fr4/8.png)
 
 ## Step 9: Click `Generate Drill Files`
 
-This is not a type-o. The click in step #8 opened the drill file options. You now have to click the button in blue to generate the drill files.
+This is not a type-o. The click in step #8 opened the drill file window. You now have to click the button in blue to generate the drill files.
 
-![Clicking the second generate drill files](/assets/images/keyboards/dxf-to-fr4/8.png)
+![Click it again](/assets/images/keyboards/dxf-to-fr4/9.png)
 
 ## Step 10: Close the drill file window and click `Plot`
 
-Plot will be the <span class="text-blue-600">blue button</span> from step #7
+Plot will be the <span class="text-blue-600">blue button</span>.
+
+![Click the Plot Button](/assets/images/keyboards/dxf-to-fr4/10.png)
 
 All the default settings should be OK, but you can refer to my picture just to be safe.
 
