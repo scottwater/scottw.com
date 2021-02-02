@@ -46,6 +46,7 @@
     "serve": "eleventy --serve",
     "serve:dist": "npx http-server dist",
     "new_post": "node bin/new_post.js",
+    "new_link": "node bin/new_link.js",
     "new_sound": "node bin/new_sound.js",
     "new_board": "node bin/new_board.js",
     "new_board_post": "node bin/new_board_post.js"
