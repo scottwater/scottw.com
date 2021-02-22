@@ -11,7 +11,11 @@ During _business_ hours, I am the co-founder of [KickoffLabs](https://kickofflab
 
 At KickoffLabs I am working on improving our "on your page" experience.
 
-For side programming, I am finally building my ideal, the to-do app. I am going to spend some time experimenting with StimulusReflex for the project. The world needs another to-do app like it needs another blog engine, but sometimes you just have to build it.
+On the side:
+
+- I recently launched a new site, [ThocStock](https://thocstock.com)
+- I am finally starting to build the ToDo app I have always wanted
+- Starting to work on the design for my first custom designed keyboard
 
 Keyboards I need to write up:
 
@@ -20,6 +24,7 @@ Keyboards I need to write up:
 - Praxis
 - Prophet
 - Squid60
+- Meridian
 
 On the look out for:
 
@@ -27,11 +32,8 @@ On the look out for:
 
 I have my eye on:
 
-- Ava
 - Iron265
 - LZ Phase
 - MGA (cyan!)
-- Meridian
 - No 2/65
-- Viktus Styrka
 - Yeti
