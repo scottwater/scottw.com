@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "img": "1.jpg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpg",
+      "alt": "MGA V2 with Mitocorn (DCP Pegaso)",
+      "desc": "MGA V2 with Mitocorn (DCP Pegaso)"
+    },
+    {
+      "img": "3.jpg",
+      "alt": "Side Shot",
+      "desc": "Side Shot"
+    },
+    {
+      "img": "4.jpg",
+      "alt": "Alu plate with all Durock poms",
+      "desc": "Alu plate with all Durock poms"
+    },
+    {
+      "img": "5.jpg",
+      "alt": "Macro keys",
+      "desc": "Macro keys with white Rama keycaps"
+    },
+    {
+      "img": "7.jpg",
+      "alt": "Original V1 MGA",
+      "desc": "Original V1 MGA with GMK Olivia++"
+    }
+  ]
+}
