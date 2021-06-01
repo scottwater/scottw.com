@@ -19,21 +19,18 @@ On the side:
 
 Keyboards I need to write up:
 
-- MGA
 - Prime Elise
 - Praxis
 - Prophet
 - Squid60
 - Meridian
+- Think V2
+- Bakeneko60
 
 On the look out for:
 
-- TKL with lower profile than the Mira
-
-I have my eye on:
-
-- Iron265
+- Unikorn R2.1 (Green)
+- Bauer
 - LZ Phase
-- MGA (cyan!)
 - No 2/65
 - Yeti
