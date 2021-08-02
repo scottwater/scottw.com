@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Side Profile",
+      "desc": "Side Profile. Notice the plate sticking out."
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "Unbuilt",
+      "desc": "Top and bottom case"
+    },
+    {
+      "img": "4.jpeg",
+      "alt": "Unbuilt 2",
+      "desc": "Pre-assembly"
+    },
+    {
+      "img": "5.jpeg",
+      "alt": "Booty",
+      "desc": "Booty"
+    },
+    {
+      "img": "6.jpeg",
+      "alt": "Naked Zykos",
+      "desc": "Naked Zyko Carnage"
+    }
+  ]
+}
