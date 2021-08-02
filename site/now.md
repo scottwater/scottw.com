@@ -19,7 +19,6 @@ On the side:
 
 Keyboards I need to write up:
 
-- Prime Elise
 - Praxis
 - Prophet
 - Squid60
