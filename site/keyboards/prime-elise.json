@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "img": "1.jpg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpg",
+      "alt": "Side Profile",
+      "desc": "Look at all that RGB. I can almost game now."
+    },
+    {
+      "img": "3.jpg",
+      "alt": "Rose Gold vs Dark Gray",
+      "desc": "Comparing rose gold to dark gray"
+    }
+  ]
+}
