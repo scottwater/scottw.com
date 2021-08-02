@@ -26,11 +26,13 @@ Keyboards I need to write up:
 - Meridian
 - Think V2
 - Bakeneko60
+- Peachyuu
+- Unikorn R2.1
+- Forever65
+- Adelie
 
 On the look out for:
 
-- Unikorn R2.1 (Green)
 - Bauer
 - LZ Phase
 - No 2/65
-- Yeti
