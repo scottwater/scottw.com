@@ -25,13 +25,16 @@ Keyboards I need to write up:
 - Meridian
 - Think V2
 - Bakeneko60
-- Peachyuu
 - Unikorn R2.1
 - Forever65
 - Adelie
+- J-01
+- Bauer 2
+- Haus
+- Saturn 60
+- Leaf 65
+- Dimple 2
 
 On the look out for:
 
-- Bauer
-- LZ Phase
 - No 2/65
