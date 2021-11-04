@@ -25,7 +25,6 @@ Keyboards I need to write up:
 - Meridian
 - Think V2
 - Bakeneko60
-- Unikorn R2.1
 - Forever65
 - Adelie
 - J-01
