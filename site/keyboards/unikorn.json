@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "img": "1.jpg",
+      "alt": "The Board",
+      "desc": "Money shot"
+    },
+    {
+      "img": "2.jpg",
+      "alt": "Close Up",
+      "desc": "Close up"
+    },
+    {
+      "img": "3.jpg",
+      "alt": "The Booty",
+      "desc": "Booty Shot"
+    },
+    {
+      "img": "4.jpg",
+      "alt": "A darker vibe",
+      "desc": "A little darker"
+    }
+  ]
+}
