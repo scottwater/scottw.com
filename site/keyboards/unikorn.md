@@ -3,7 +3,7 @@ title: Unikorn (R2.1)
 date: 2021-11-03T23:44:52.068Z
 uuid: 5912f866-a890-4ab3-887e-86f3d6d81d20
 keywords: Mechanical Keyboard,
-image: /assets/images/keyboards/unikorn/1.jpeg
+image: /assets/images/keyboards/unikorn/1.jpg
 build:
   case: Unikorn by SINGA X TGR
   pcb: Hiney 60
