@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "img": "1.jpeg",
+      "alt": "Portico75 Side Shot",
+      "desc": "Side profile"
+    },
+    {
+      "img": "2.jpeg",
+      "alt": "Portico75 Side Shot",
+      "desc": "Money shot"
+    },
+    {
+      "img": "3.jpeg",
+      "alt": "Portico75 Side Shot",
+      "desc": "RGB - You really do not see the per key with good ABS keycaps"
+    }
+  ]
+}
