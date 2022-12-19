@@ -1,5 +1,6 @@
 https://www.scottw.com/* https://scottw.com/:splat 301!
 https://master--scottw.netlify.com/* https://scottw.com/:splat 301!
+/.well-known/webfinger https://ruby.social/.well-known/webfinger?resource=acct:@scottw@ruby.social
 /mastodon https://ruby.social/@Scottw 301!
 /mastadon https://ruby.social/@Scottw 301!
 /twitter-sucks https://ruby.social/@Scottw 301!
